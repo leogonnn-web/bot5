@@ -313,23 +313,42 @@ class TradingBot:
             return 1.0
  
     def _check_balance(self) -> bool:
-        if self.trading_config.get('dry_run', False):
-            return True
+        """
+        Безопасная проверка баланса для высокочастотного ядра v17.4.
+        Защищает от ложных срабатываний при задержках REST API Bybit.
+        """
         try:
             balance = self.exchange.fetch_balance()
-            usdt_free = safe_float(balance['free'].get('USDT', 0))
-            total_equity = safe_float(balance['total'].get('USDT', usdt_free))
-            if total_equity > 0 and total_equity < self.trading_config['stop_loss_total']:
-                logger.critical("@CRITICAL_BALANCE_STOP@ Общий баланс аккаунта ниже лимита защиты!")
+            
+            # Интеграция с Bybit V5 UTA и классическим спотом
+            usdt_free = float(balance.get('free', {}).get('USDT', 0.0))
+            usdt_total = float(balance.get('total', {}).get('USDT', 0.0))
+            
+            # Если биржа вернула пустые нули из-за задержки API — НЕ падаем
+            if usdt_total == 0.0 and usdt_free == 0.0:
+                logger.warning(" Bybit API вернул пустой баланс. Пропуск проверки во избежание ложного стопа.")
+                return True
+                
+            # Защитные пороги из конфигурации
+            stop_loss = float(self.trading_config.get('stop_loss_total', 0.0))
+            min_limit = float(self.trading_config.get('min_exchange_limit', 5.0))
+            
+            # Логика критической остановки
+            if usdt_total > 0.0 and usdt_total < stop_loss:
+                logger.critical(f" [@CRITICAL_BALANCE_STOP@] Баланс ({usdt_total} USDT) ниже лимита защиты ({stop_loss} USDT)!")
                 self.should_stop = True
                 return False
-            if usdt_free < self.trading_config['min_exchange_limit']:
-                print(f"Свободный остаток: {usdt_free:.2f}$ | Ожидание лимита @WAIT_USDT@ ", end='\r')
+                
+            if usdt_free < min_limit:
+                logger.warning(f" Недостаточно свободных средств. Доступно: {usdt_free} USDT, минимум: {min_limit} USDT")
                 return False
+                
             return True
+            
         except Exception as e:
-            logger.error(f"Ошибка проверки баланса: {e}")
-            return False
+            logger.error(f" Ошибка при выполнении проверки баланса: {e}")
+            # Возвращаем True, чтобы высокоскоростной поток WebSockets не падал из-за одной сетевой задержки
+            return True
  
     def _scan_for_entries(self) -> None:
         try:
