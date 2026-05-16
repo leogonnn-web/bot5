@@ -113,10 +113,8 @@ class TradingBot:
             symbols = self.symbol_manager.get_symbols(refresh_scanner=False)
             is_dry_run = self.trading_config.get('dry_run', False)
             
-            # [СИМУЛЯЦИЯ ФИКС]: Если включен dry_run, генерируем виртуальный стакан в памяти
             if is_dry_run:
                 for sym in symbols:
-                    # Базовая заглушка цен для тестов: NOT=0.015, TON=7.0, BNB=600.0, BASED=0.077
                     mock_price = 0.015 if "NOT" in sym else (7.0 if "TON" in sym else (600.0 if "BNB" in sym else 0.077))
                     self.ws_tickers_cache[sym] = {
                         'ask': mock_price,
@@ -126,7 +124,6 @@ class TradingBot:
                     }
                 return
 
-            # Боевой режим: реальный запрос к Bybit V5
             raw_tickers = self.exchange.fetch_tickers(symbols)
             for sym in symbols:
                 if sym in raw_tickers:
@@ -174,7 +171,6 @@ class TradingBot:
             self.state = BotState.IDLE
 
     def _handle_in_position_state(self):
-        """Мониторинг сделки с поддержкой боевого режима и симуляции Dry Run"""
         try:
             symbol = self.state_data['symbol']
             is_dry_run = self.trading_config.get('dry_run', False)
@@ -185,12 +181,10 @@ class TradingBot:
             change_percent = ((current_price - self.state_data['buy_price']) / self.state_data['buy_price']) * 100
             elapsed = time.time() - self.state_data['buy_time']
             
-            # Считаем целевую цену тейка для симуляции
             take_profit_pct = self.trading_config.get('take_profit', 1.5)
             
             print(f"Позиция {symbol}: {change_percent:.2f}% | Время: {int(elapsed)}с @MONITOR_WS@", end='\r')
 
-            # --- ЛОГИКА ОПРЕДЕЛЕНИЯ ЗАКРЫТИЯ СДЕЛКИ ---
             is_tp_hit = change_percent >= take_profit_pct
             is_sl_hit = change_percent <= -self.trading_config['panic_stop']
             
@@ -210,7 +204,6 @@ class TradingBot:
                     self.state = BotState.IDLE
                     return
             else:
-                # Боевой режим: опрашиваем реальный ордер на Bybit
                 order_id = self.state_data['order_id']
                 try:
                     order = self.exchange.fetch_order(order_id, symbol)
@@ -320,8 +313,6 @@ class TradingBot:
             return 1.0
  
     def _check_balance(self) -> bool:
-        """Проверка баланса аккаунта с авто-пропуском для симуляции"""
-        # Если включен dry_run — сразу возвращаем True и не лезем на биржу Bybit
         if self.trading_config.get('dry_run', False):
             return True
         try:
@@ -490,7 +481,7 @@ class TradingBot:
                 except: pass
                 self.state = BotState.IDLE
         except Exception as e:
-            logger.error(f"❌ Ошибка входа: {e}")
+            logger.error(f"Ошибка входа: {e}")
             self.state = BotState.IDLE
 
 def main():
