@@ -1,0 +1,89 @@
+{
+  "trading": {
+    "slot_size": 10.0,
+    "entry_threshold": 0.75,
+    "drop_threshold": 0.65,
+    "panic_stop": 2.0,
+    "min_equity_usd": 50.0,
+    "timeout_breakeven": 1200,
+    "min_exchange_limit": 5.2,
+    "volatility_min": 0.85,
+    "spread_max": 0.10,
+    "use_dynamic_stops": true,
+    "atr_multiplier": 1.5,
+    "min_stop_pct": 1.0,
+    "max_stop_pct": 5.0,
+    "falling_knife_threshold_pct": 3.0
+  },
+  "symbols": [
+    "NOT/USDT",
+    "TON/USDT",
+    "BNB/USDT"
+  ],
+  "exchange": {"name": "bybit"},
+  "indicators": {
+    "enabled": true,
+    "rsi_period": 14,
+    "rsi_oversold": 30,
+    "rsi_overbought": 70,
+    "ema_fast": 9,
+    "ema_slow": 21,
+    "macd_fast": 12,
+    "macd_slow": 26,
+    "macd_signal": 9,
+    "min_signal_score": 2
+  },
+  "stochastic": {
+    "enabled": true,
+    "period": 14,
+    "k_smooth": 3,
+    "d_smooth": 3,
+    "oversold_level": 20,
+    "overbought_level": 80
+  },
+  "ichimoku": {
+    "enabled": true,
+    "tenkan_period": 9,
+    "kijun_period": 26,
+    "senkou_b_period": 52,
+    "chikou_shift": 26,
+    "require_price_above_cloud": false,
+    "require_cloud_bullish": false,
+    "min_confidence": 50
+  },
+  "volume_profile": {
+    "enabled": true,
+    "bins": 20,
+    "value_area_percent": 70.0,
+    "cluster_threshold_percentile": 75.0,
+    "poc_weight": 1.5,
+    "require_at_poc": false
+  },
+  "signal_optimizer": {
+    "enabled": true,
+    "min_confidence_threshold": 60,
+    "use_conflict_detection": true,
+    "volatility_adjusted": true,
+    "signal_weights": {
+      "rsi": 2.0,
+      "ema": 2.0,
+      "macd": 1.0,
+      "stochastic": 3.0,
+      "ichimoku": 2.0,
+      "volume_poc": 1.5
+    }
+  },
+  "market_conditions": {
+    "btc_trend_detection": true,
+    "volatility_adjustment": true,
+    "trading_session_adjustment": false,
+    "high_volatility_threshold": 1.5,
+    "low_volatility_threshold": 0.7
+  },
+  "scanner": {
+    "enabled": true,
+    "file": "hot_symbols.txt",
+    "cache_ttl": 600,
+    "use_priority": true
+  }
+}
