@@ -1,19 +1,16 @@
-{
   "trading": {
     "slot_size": 10.0,
-    "entry_threshold": 0.75,
     "drop_threshold": 0.65,
+    "take_profit": 1.5,
     "panic_stop": 2.0,
-    "min_equity_usd": 50.0,
-    "timeout_breakeven": 1200,
+    "stop_loss_total": 2.0,
     "min_exchange_limit": 5.2,
-    "volatility_min": 0.85,
-    "spread_max": 0.10,
     "use_dynamic_stops": true,
-    "atr_multiplier": 1.5,
-    "min_stop_pct": 1.0,
-    "max_stop_pct": 5.0,
-    "falling_knife_threshold_pct": 3.0
+    "max_trades_per_day": 5,
+    "cooldown_after_loss_minutes": 30,
+    "min_rvol_threshold": 1.5,
+    "block_night_trading": false,
+    "btc_crash_15m_limit": -2.0
   },
   "symbols": [
     "NOT/USDT",
