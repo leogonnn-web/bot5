@@ -1,0 +1,2266 @@
+2026-05-14 04:45:15 [ERROR] Error setting up database: near "AUTO_INCREMENT": syntax error
+2026-05-14 04:53:05 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 04:53:05 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 04:53:08 [DEBUG] ✅ Loaded 2567 markets
+2026-05-14 04:53:08 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723588256&sign=dcd20f57fa61c1cc4c77e4741f5f3299bbd0d374d07ecd23bb7fe66a74eeca1a 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:08 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723588256&sign=dcd20f57fa61c1cc4c77e4741f5f3299bbd0d374d07ecd23bb7fe66a74eeca1a 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:13 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723593465&sign=08665b260d65cd3c0ffe93d1cf0fc9362ccc7374b5fc4d37aac60967f7baefa7 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:14 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723593465&sign=08665b260d65cd3c0ffe93d1cf0fc9362ccc7374b5fc4d37aac60967f7baefa7 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:19 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723599782&sign=93c532e597d77948e3c8394aa6eb54d02eb996265877ebdf1733fc94fab70171 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:19 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723599782&sign=93c532e597d77948e3c8394aa6eb54d02eb996265877ebdf1733fc94fab70171 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:25 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723604987&sign=64224dd861968216ded7ac27b1d82f83d057aa0bbcea65a0639faf33e4f7b68d 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:25 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723604987&sign=64224dd861968216ded7ac27b1d82f83d057aa0bbcea65a0639faf33e4f7b68d 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:30 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723610210&sign=7d03bb9f927c2384315399ff3f09422ed0f77866cf51fd490d25538c1d571e80 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:30 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723610210&sign=7d03bb9f927c2384315399ff3f09422ed0f77866cf51fd490d25538c1d571e80 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:35 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723615416&sign=8d395fd799fc24b4995d940508f967c2241dcfa321c52c1b30be9fc4d3c205dd 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:35 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723615416&sign=8d395fd799fc24b4995d940508f967c2241dcfa321c52c1b30be9fc4d3c205dd 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:40 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723620622&sign=1ec5f4184c28a569cdd5566d3b1b536e6b6568be2bf7352843e5babe0a22527b 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:40 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723620622&sign=1ec5f4184c28a569cdd5566d3b1b536e6b6568be2bf7352843e5babe0a22527b 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:46 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723625828&sign=2bb13f91b86641e2a41257d1f5e4255a2a00e2315661c6b7b7bb42cbad2aa594 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:46 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723625828&sign=2bb13f91b86641e2a41257d1f5e4255a2a00e2315661c6b7b7bb42cbad2aa594 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:51 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723631034&sign=6d158e8684f6eed22baf34bf1448153360e33a1b313674d9e128e9a8c57bf600 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:51 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723631034&sign=6d158e8684f6eed22baf34bf1448153360e33a1b313674d9e128e9a8c57bf600 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:56 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723636240&sign=74dabafcf5e12c500a4cf9941405ffd5f47b3c7875fae1f94dd7d7f474829bde 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:53:56 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723636240&sign=74dabafcf5e12c500a4cf9941405ffd5f47b3c7875fae1f94dd7d7f474829bde 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:01 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723641445&sign=a9900a6a6037692e0bb53f8439d0bbdc460963ff87b5c9e47edb604e22785ff5 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:01 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723641445&sign=a9900a6a6037692e0bb53f8439d0bbdc460963ff87b5c9e47edb604e22785ff5 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:06 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723646650&sign=95e002222c21f958a5fbb969fe3ae29eadb85e83c1ed07deb42c2e1735250676 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:06 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723646650&sign=95e002222c21f958a5fbb969fe3ae29eadb85e83c1ed07deb42c2e1735250676 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:12 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723651855&sign=f5e5209959d65d364631a7890d755f4e47b5c7379c9518bf9faf4f44705675e4 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:12 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723651855&sign=f5e5209959d65d364631a7890d755f4e47b5c7379c9518bf9faf4f44705675e4 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:17 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723657062&sign=5a7ffa10b1d2c5acfe1d3b4108a48f6de2f88d4f41baa83ac9f2d4ca52c05774 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:17 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723657062&sign=5a7ffa10b1d2c5acfe1d3b4108a48f6de2f88d4f41baa83ac9f2d4ca52c05774 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:22 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723662267&sign=c9f6b383f28673be5708b435587e9d5bbea5904dce26552c99d74514399c3abb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:22 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723662267&sign=c9f6b383f28673be5708b435587e9d5bbea5904dce26552c99d74514399c3abb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:27 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723667474&sign=b9b1491c3e9358095cfd2566950d750e60e224131b1acf1a4299ce17c1f63787 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:27 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723667474&sign=b9b1491c3e9358095cfd2566950d750e60e224131b1acf1a4299ce17c1f63787 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:32 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723672679&sign=47e6f089e4d68c76003f92a8d4c047003bb1d8be4c3109e981e87a3fed5ccfdf 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:32 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723672679&sign=47e6f089e4d68c76003f92a8d4c047003bb1d8be4c3109e981e87a3fed5ccfdf 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:38 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723677884&sign=7fce6723e8fcb30062d05f3066d6b81debe2a2aac6e4ae918f067b622c7ee7f8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:38 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723677884&sign=7fce6723e8fcb30062d05f3066d6b81debe2a2aac6e4ae918f067b622c7ee7f8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:43 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723683089&sign=0e5774391f914d7e1e7a79750b3e72e81d57fca2ebb5ae3f8668719acafb120a 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:43 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723683089&sign=0e5774391f914d7e1e7a79750b3e72e81d57fca2ebb5ae3f8668719acafb120a 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:48 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723688294&sign=a158d86762e0c64cc09582c13269f8858540381905b6dfab2f6c22cd538a247d 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:48 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723688294&sign=a158d86762e0c64cc09582c13269f8858540381905b6dfab2f6c22cd538a247d 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:53 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723693502&sign=13704676215627bee10177830549d960f66c3e9a1161b730a1dbef4b40a0baa4 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:53 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723693502&sign=13704676215627bee10177830549d960f66c3e9a1161b730a1dbef4b40a0baa4 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:58 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723698707&sign=7d2d33c26a7909318f400f599c3488866268e1c306fccdb744b288906fd4d9ac 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:54:58 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723698707&sign=7d2d33c26a7909318f400f599c3488866268e1c306fccdb744b288906fd4d9ac 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:04 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723703912&sign=9615f64e9b5aa40d9a15d8c2fd29e1da7a861d8c238e95baac141b45d05781bb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:04 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723703912&sign=9615f64e9b5aa40d9a15d8c2fd29e1da7a861d8c238e95baac141b45d05781bb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:09 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723709117&sign=087ceede57bad3e0238b269a7578658b40b75142cc206e46713bf5b165f28630 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:09 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723709117&sign=087ceede57bad3e0238b269a7578658b40b75142cc206e46713bf5b165f28630 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:14 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723714322&sign=455b48384506637afe6c44a8ecbb60e2085b9f77eeafc745e511bc698cfca8a5 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:14 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723714322&sign=455b48384506637afe6c44a8ecbb60e2085b9f77eeafc745e511bc698cfca8a5 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:19 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723719527&sign=cbd1bd7975c02225d2f5fe625ff88738905ff1673507133b694ab0033fca22c8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:19 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723719527&sign=cbd1bd7975c02225d2f5fe625ff88738905ff1673507133b694ab0033fca22c8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:24 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723724734&sign=308ba44aa5da6c963dd48d8be64330799f166963cecfda1cf981b2007997246a 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:24 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723724734&sign=308ba44aa5da6c963dd48d8be64330799f166963cecfda1cf981b2007997246a 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:30 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723729939&sign=3efd32f15911ac5ba217f4b9b56e3364b7eeaf71b00f82f44e4c6e920f846905 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:30 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723729939&sign=3efd32f15911ac5ba217f4b9b56e3364b7eeaf71b00f82f44e4c6e920f846905 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:35 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723735145&sign=fe2a2021fb1381515d16550eef1ec520266108cb59db449ad425592163f455ff 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:35 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723735145&sign=fe2a2021fb1381515d16550eef1ec520266108cb59db449ad425592163f455ff 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:40 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723740351&sign=1c80cfb8a2a03194c8bd603ddaba13d1dc468b1d91514a521250b26d3414344f 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:40 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723740351&sign=1c80cfb8a2a03194c8bd603ddaba13d1dc468b1d91514a521250b26d3414344f 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:45 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723745556&sign=bec6233d87934b8ce61b146fbedb2a197eff53280847137610ab66fd1ce09eb9 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:45 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723745556&sign=bec6233d87934b8ce61b146fbedb2a197eff53280847137610ab66fd1ce09eb9 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:50 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723750761&sign=6e9d87dec4467bb77c60295caee27393a4b2079ea43208d328de11bfaccc1794 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:50 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723750761&sign=6e9d87dec4467bb77c60295caee27393a4b2079ea43208d328de11bfaccc1794 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:56 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723755966&sign=1c2fe8faad85c3775e2f422e6e600544a5b2da450521bec6adc868eec6d04c01 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:55:56 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723755966&sign=1c2fe8faad85c3775e2f422e6e600544a5b2da450521bec6adc868eec6d04c01 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:01 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723761170&sign=7b89e7bbd469e4dc0038a9fbc60a81f03446cd6a05c71a8bfac6ed16924a2e22 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:01 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723761170&sign=7b89e7bbd469e4dc0038a9fbc60a81f03446cd6a05c71a8bfac6ed16924a2e22 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:06 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723766376&sign=db43aaa8216971db4b575973a26e69cc2b241cf722665b27663065be4e5c8160 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:06 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723766376&sign=db43aaa8216971db4b575973a26e69cc2b241cf722665b27663065be4e5c8160 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:11 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723771581&sign=453c8a7a687c2b2ceae26392668236824e14e336a997b198187a0ca168f39366 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:11 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723771581&sign=453c8a7a687c2b2ceae26392668236824e14e336a997b198187a0ca168f39366 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:16 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723776786&sign=ecd8b121e3fcf7266bcaf65ba3dc539e45887d7cad813283538defbac46d0ccf 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:16 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723776786&sign=ecd8b121e3fcf7266bcaf65ba3dc539e45887d7cad813283538defbac46d0ccf 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:22 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723781990&sign=fd11ffe71262af0a632b8cdac887f18a683ce8d7e256221507a219a04120b866 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:22 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723781990&sign=fd11ffe71262af0a632b8cdac887f18a683ce8d7e256221507a219a04120b866 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:27 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723787197&sign=ac3400bb83ba8f047299dfc65c9f7efb2b7b451821894ad02f3a911460e792e8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:27 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723787197&sign=ac3400bb83ba8f047299dfc65c9f7efb2b7b451821894ad02f3a911460e792e8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:32 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723792456&sign=eded27e28bce5c378c4a73bb503742f5910532d76e2c040f4d090cd5a76894eb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:32 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723792456&sign=eded27e28bce5c378c4a73bb503742f5910532d76e2c040f4d090cd5a76894eb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:37 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723797661&sign=c231a9ef7b353912dd2bb1a8f8461b3831a10e2f9f8e88e60ca3f1d44da9aac6 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:37 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723797661&sign=c231a9ef7b353912dd2bb1a8f8461b3831a10e2f9f8e88e60ca3f1d44da9aac6 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:43 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723802865&sign=79a9c972e0c57efbf270bf0104d1211df83645bd0fb57dfc550aff4017dd73fb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:43 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723802865&sign=79a9c972e0c57efbf270bf0104d1211df83645bd0fb57dfc550aff4017dd73fb 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:48 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723808077&sign=3c516283b37fb24b785520a0ea08a638d9c0154f5ff6566e2dcce4b062cf89d8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:48 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723808077&sign=3c516283b37fb24b785520a0ea08a638d9c0154f5ff6566e2dcce4b062cf89d8 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:53 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723813285&sign=9f9b37df0f7af92ed66e6836cd901c331e55f8e552cbadd28e23b41b5d592e98 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:56:53 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723813285&sign=9f9b37df0f7af92ed66e6836cd901c331e55f8e552cbadd28e23b41b5d592e98 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:06 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 04:57:06 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 04:57:11 [DEBUG] ✅ Loaded 2567 markets
+2026-05-14 04:57:12 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723831865&sign=1a8cd358fbdd61d5975c5ac9a10685db33fef74bc917fb2cc4257f0156d95e8d 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:12 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723831865&sign=1a8cd358fbdd61d5975c5ac9a10685db33fef74bc917fb2cc4257f0156d95e8d 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:17 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723837069&sign=0a9a59519c5d5572825dd7c266231d02a56619c78cd4ddca52c5988bbe74fb9b 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:17 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723837069&sign=0a9a59519c5d5572825dd7c266231d02a56619c78cd4ddca52c5988bbe74fb9b 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:22 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723842272&sign=346ee6fb66884e7e339a6acb81833800a7bb09af9737ad306acb6f28aefa5f18 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:22 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723842272&sign=346ee6fb66884e7e339a6acb81833800a7bb09af9737ad306acb6f28aefa5f18 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:27 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723847475&sign=2c117fd59e963a9f950599f801edfd8f5418f2eee042649616e41de24a8e78a1 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:27 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723847475&sign=2c117fd59e963a9f950599f801edfd8f5418f2eee042649616e41de24a8e78a1 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:32 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723852680&sign=a515c1376762ac8a3b953fda5ff927aa674b03a33b219655e9f57bab6d7ed6f5 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:32 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723852680&sign=a515c1376762ac8a3b953fda5ff927aa674b03a33b219655e9f57bab6d7ed6f5 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:38 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723857887&sign=9b6df57fa238069aaf29a7357d781edca7b653891f12d9a344517d030fecbc9e 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:38 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723857887&sign=9b6df57fa238069aaf29a7357d781edca7b653891f12d9a344517d030fecbc9e 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:43 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723863091&sign=97e36f457224f75a3c5b8b4c6f0e61bf256079af081ba3af1c6a3fd06bbb7eb7 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 04:57:43 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=10000&timestamp=1778723863091&sign=97e36f457224f75a3c5b8b4c6f0e61bf256079af081ba3af1c6a3fd06bbb7eb7 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 05:04:38 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 05:04:38 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 05:04:41 [DEBUG] ✅ Loaded 2567 markets
+2026-05-14 05:04:41 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=5000&timestamp=1778724281246&sign=8a4ca0d710a421bd4b234dee025285a64058b48ba0f00838b95435bd9073f2c3 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 05:04:41 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=5000&timestamp=1778724281246&sign=8a4ca0d710a421bd4b234dee025285a64058b48ba0f00838b95435bd9073f2c3 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 05:04:46 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=5000&timestamp=1778724286449&sign=17f81c27e10e246c8ffb15e7af10d2dcb4947c941c9f5cafa95a38303b234ecf 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 05:04:46 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=5000&timestamp=1778724286449&sign=17f81c27e10e246c8ffb15e7af10d2dcb4947c941c9f5cafa95a38303b234ecf 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 05:04:51 [ERROR] Error fetching balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=5000&timestamp=1778724291652&sign=e89cf7bd35b7e8e63fbebdd76fc89086054ffd7df6a9ccd976493425390806d2 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 05:04:53 [ERROR] Error checking balance: bybit GET https://api.bybit.com/spot/v3/private/account?api_key=bhmqvTw7MNOO03M1YW&recv_window=5000&timestamp=1778724291652&sign=e89cf7bd35b7e8e63fbebdd76fc89086054ffd7df6a9ccd976493425390806d2 404 Not Found We have discontinued Open API V3 services as of August 31 2024. Please refer to the official website announcement and upgrade to Open API V5 as soon as possible to continue using API services.
+2026-05-14 05:07:14 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 05:07:14 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 05:07:18 [DEBUG] ✅ Loaded 3228 markets
+2026-05-14 05:07:19 [DEBUG] Scanner: New symbols: VVV/USDT, OPG/USDT, H/USDT
+2026-05-14 05:07:21 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:24 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:28 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:31 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:35 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:38 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:42 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:45 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:48 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:51 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:54 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:07:58 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:08:02 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:08:05 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:08:08 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:08:11 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:08:15 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:08:18 [ERROR] Error scanning: 'VVV/USDT'
+2026-05-14 05:17:19 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 05:17:19 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 05:17:24 [DEBUG] ✅ Loaded 3228 markets
+2026-05-14 05:29:39 [ERROR] Error in main loop: 'HealthChecker' object has no attribute 'check'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\bot_v17.py", line 137, in run
+    self.health_checker.check()
+    ^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'HealthChecker' object has no attribute 'check'
+2026-05-14 05:39:37 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 05:39:37 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 05:39:44 [DEBUG] ✅ Loaded 3132 markets
+2026-05-14 05:52:05 [DEBUG] ✅ Caches cleared
+2026-05-14 05:52:05 [ERROR] Error in main loop: 'TradeDatabase' object has no attribute 'get_session_stats'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\bot_v17.py", line 139, in run
+    stats = self.trade_db.get_session_stats()
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'TradeDatabase' object has no attribute 'get_session_stats'
+2026-05-14 05:58:06 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 05:58:06 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 05:58:12 [DEBUG] ✅ Loaded 3132 markets
+2026-05-14 05:59:38 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 05:59:38 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 05:59:41 [DEBUG] ✅ Loaded 3132 markets
+2026-05-14 06:08:47 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.75%
+2026-05-14 06:08:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:08:47 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:08:50 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.75%
+2026-05-14 06:08:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:08:50 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:08:52 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.75%
+2026-05-14 06:08:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:08:52 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:08:57 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.88%
+2026-05-14 06:08:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:08:57 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:00 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.86%
+2026-05-14 06:09:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:00 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:07 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.83%
+2026-05-14 06:09:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:07 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:10 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.79%
+2026-05-14 06:09:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:10 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:30 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.79%
+2026-05-14 06:09:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:30 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:32 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.79%
+2026-05-14 06:09:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:32 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:35 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.79%
+2026-05-14 06:09:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:35 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:37 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.79%
+2026-05-14 06:09:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:37 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:09:52 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.81%
+2026-05-14 06:09:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:09:52 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:11:44 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.84%
+2026-05-14 06:11:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:11:44 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:11:46 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.77%
+2026-05-14 06:11:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:11:46 [ERROR] Complete analysis error: float() argument must be a string or a real number, not 'dict'
+Traceback (most recent call last):
+  File "C:\Users\leogo\Desktop\bot4-main\bot4-main\indicators_v17.py", line 379, in complete_analysis
+    'macd_signal': float(macd_signal),
+                   ^^^^^^^^^^^^^^^^^^
+TypeError: float() argument must be a string or a real number, not 'dict'
+2026-05-14 06:19:00 [INFO] 🚀 HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 06:19:00 [INFO] ✅ Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 06:19:04 [DEBUG] ✅ Loaded 3126 markets
+2026-05-14 06:22:18 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.69%
+2026-05-14 06:22:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:18 [INFO] 🔴 SKIP | Confidence: 15.2% (1.8/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:25 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.67%
+2026-05-14 06:22:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:25 [INFO] 🔴 SKIP | Confidence: 15.2% (1.8/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:29 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.67%
+2026-05-14 06:22:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:29 [INFO] 🔴 SKIP | Confidence: 15.2% (1.8/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:32 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.70%
+2026-05-14 06:22:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:33 [INFO] 🔴 SKIP | Confidence: 15.2% (1.8/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:35 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.72%
+2026-05-14 06:22:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:35 [INFO] 🔴 SKIP | Confidence: 15.2% (1.8/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:37 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.72%
+2026-05-14 06:22:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:37 [INFO] 🔴 SKIP | Confidence: 15.2% (1.8/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:40 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.78%
+2026-05-14 06:22:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:40 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:43 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.82%
+2026-05-14 06:22:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:43 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:47 [INFO] 📉 SIGNAL: NOT/USDT dropped 0.82%
+2026-05-14 06:22:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:22:47 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:22:49 [DEBUG] Scanner: New symbols: ATH/USDT
+2026-05-14 06:22:50 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:22:53 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:22:56 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:22:58 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:01 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:04 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:06 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:09 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:12 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:15 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:18 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:21 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:24 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:27 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:29 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:32 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:35 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:37 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:40 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:43 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:48 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:50 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:53 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:55 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:23:58 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:01 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:04 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:06 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:09 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:12 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:15 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:17 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:20 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:23 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:25 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:28 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:31 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:33 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:36 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:39 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:41 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:44 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:47 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:49 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:52 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:55 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:24:58 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:00 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:03 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:05 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:08 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:11 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:14 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:16 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:19 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:23 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:26 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:28 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:31 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:34 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:36 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:39 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:42 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:44 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:47 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:50 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:53 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:55 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:25:58 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:01 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:03 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:06 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:09 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:11 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:14 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:17 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:19 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:22 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:25 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:28 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:31 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:33 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:36 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:38 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:41 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:44 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:47 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:49 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:52 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:26:54 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:05 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:08 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:11 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:13 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:16 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:19 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:21 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:24 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:27 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:29 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:32 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:35 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:37 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:40 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:43 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:46 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:48 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:51 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:54 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:56 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:27:59 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:02 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:04 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:07 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:10 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:13 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:15 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:18 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:20 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:23 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:26 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:29 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:32 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:34 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:37 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:41 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:44 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:47 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:49 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:52 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:55 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:28:57 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:29:00 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:29:03 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:29:05 [ERROR] Error scanning: 'ATH/USDT'
+2026-05-14 06:39:21 [INFO] HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 06:39:21 [INFO] Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 06:39:24 [DEBUG] ✅ Loaded 3150 markets
+2026-05-14 06:39:25 [DEBUG] Scanner: New symbols: ATH/USDT
+2026-05-14 06:41:25 [DEBUG] Scanner: New symbols: OPG/USDT
+2026-05-14 06:41:25 [DEBUG] Scanner: Removed symbols: ATH/USDT
+2026-05-14 06:44:42 [INFO] HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 06:44:42 [INFO] Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 06:44:49 [DEBUG] ✅ Loaded 3150 markets
+2026-05-14 06:44:50 [DEBUG] Scanner: New symbols: OPG/USDT
+2026-05-14 06:49:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:11 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:14 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:16 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:19 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:22 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:26 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:29 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:31 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:34 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:37 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:42 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:45 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:48 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:51 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:53 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:56 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:49:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:49:59 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:02 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:04 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:07 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:10 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:13 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:15 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:18 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:21 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:24 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:27 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:31 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:34 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:37 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:39 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:42 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:45 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:48 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:50 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:53 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:56 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:50:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:50:59 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:01 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:04 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:07 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:10 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:12 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:15 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:18 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:21 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:23 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:27 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:30 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:51:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:51:57 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:00 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:03 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:06 [INFO] 🔴 SKIP | Confidence: 14.0% (1.6/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:08 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:11 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:14 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:17 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:19 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:22 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:25 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:29 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:32 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:34 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:37 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:40 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:43 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:46 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:48 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:51 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:54 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:54 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:57 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:52:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:52:59 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:02 [INFO] 🔴 SKIP | Confidence: 12.2% (1.4/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:05 [INFO] 🔴 SKIP | Confidence: 0.0% (0.0/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:07 [INFO] 🔴 SKIP | Confidence: 0.0% (0.0/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:10 [INFO] 🔴 SKIP | Confidence: 0.0% (0.0/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:13 [INFO] 🔴 SKIP | Confidence: 0.0% (0.0/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:16 [INFO] 🔴 SKIP | Confidence: 0.0% (0.0/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:46 [INFO] 🔴 SKIP | Confidence: 0.0% (0.0/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:53:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 06:53:48 [INFO] 🔴 SKIP | Confidence: 0.0% (0.0/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟡 Price near volume support
+   ⚠️ 🔴 EMA downtrend
+   ⚠️ 🔴 MACD bearish
+   → Multiple conflicting signals reduce confidence
+2026-05-14 06:57:29 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:31 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:34 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:37 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:40 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:42 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:45 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:47 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:50 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:53 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:56 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:57:58 [INFO] 🔴 SKIP | Confidence: 11.3% (1.3/11.5)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:01 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:04 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:07 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:09 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:12 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:15 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:18 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:20 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:23 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:26 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:29 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:31 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:34 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:37 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:40 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:40 [DEBUG] ✅ Caches cleared
+2026-05-14 06:58:40 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 7 (1 scanner, 6 base)
+2026-05-14 06:58:43 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:45 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:48 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:51 [INFO] 🔴 SKIP | Confidence: 46.1% (5.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Stochastic oversold
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:58:53 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟢 RSI oversold (bullish)
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 EMA downtrend
+   → Insufficient confidence
+2026-05-14 06:59:25 [INFO] HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 06:59:25 [INFO] Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 06:59:29 [DEBUG] ✅ Loaded 3150 markets
+2026-05-14 06:59:30 [DEBUG] Scanner: New symbols: H/USDT
+2026-05-14 07:02:55 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟡 EMA weak uptrend
+   ✅ 🟡 Ichimoku cloud bullish
+   ✅ 🟢 Tenkan > Kijun (momentum up)
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 MACD bearish
+   → Insufficient confidence
+2026-05-14 07:02:58 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟡 EMA weak uptrend
+   ✅ 🟡 Ichimoku cloud bullish
+   ✅ 🟢 Tenkan > Kijun (momentum up)
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 MACD bearish
+   → Insufficient confidence
+2026-05-14 07:03:01 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟡 EMA weak uptrend
+   ✅ 🟡 Ichimoku cloud bullish
+   ✅ 🟢 Tenkan > Kijun (momentum up)
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 MACD bearish
+   → Insufficient confidence
+2026-05-14 07:03:03 [INFO] 🔴 SKIP | Confidence: 28.7% (3.3/11.5)
+   ✅ 🟡 EMA weak uptrend
+   ✅ 🟡 Ichimoku cloud bullish
+   ✅ 🟢 Tenkan > Kijun (momentum up)
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   ⚠️ 🔴 MACD bearish
+   → Insufficient confidence
+2026-05-14 07:03:06 [INFO] 🔴 SKIP | Confidence: 26.1% (3.0/11.5)
+   ✅ 🟡 EMA weak uptrend
+   ✅ 🟡 Ichimoku cloud bullish
+   ✅ 🟢 Tenkan > Kijun (momentum up)
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 MACD bearish
+   → Insufficient confidence
+2026-05-14 07:03:09 [INFO] 🔴 SKIP | Confidence: 26.1% (3.0/11.5)
+   ✅ 🟡 EMA weak uptrend
+   ✅ 🟡 Ichimoku cloud bullish
+   ✅ 🟢 Tenkan > Kijun (momentum up)
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 MACD bearish
+   → Insufficient confidence
+2026-05-14 07:05:52 [INFO] 🔴 SKIP | Confidence: 26.1% (3.0/11.5)
+   ✅ 🟡 EMA weak uptrend
+   ✅ 🟡 Ichimoku cloud bullish
+   ✅ 🟢 Tenkan > Kijun (momentum up)
+   ✅ 🟢 Price at POC (high liquidity)
+   ⚠️ 🔴 MACD bearish
+   → Insufficient confidence
+2026-05-14 07:08:20 [INFO] HYDRA v17.0 STARTED | Previous profit: $0.00
+2026-05-14 07:08:20 [INFO] Enabled features: RSI, EMA, MACD | Ichimoku Cloud | Volume Profile (POC) | Signal Optimizer | Scanner v3.0
+2026-05-14 07:08:23 [DEBUG] ✅ Loaded 3150 markets
+2026-05-14 07:08:24 [DEBUG] Scanner: New symbols: H/USDT
+2026-05-14 07:20:56 [DEBUG] ✅ Caches cleared
+2026-05-14 07:20:56 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 6 (0 scanner, 6 base)
+2026-05-14 07:33:10 [DEBUG] ✅ Caches cleared
+2026-05-14 07:33:10 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 6 (0 scanner, 6 base)
+2026-05-14 07:38:34 [DEBUG] Scanner: New symbols: BASED/USDT
+2026-05-14 07:38:34 [DEBUG] Scanner: Removed symbols: H/USDT
+2026-05-14 07:46:15 [DEBUG] ✅ Caches cleared
+2026-05-14 07:46:15 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 7 (1 scanner, 6 base)
+2026-05-14 07:57:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:57:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:41 [DEBUG] Scanner: New symbols: PIEVERSE/USDT
+2026-05-14 07:58:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:58:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 07:59:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:00:26 [DEBUG] ✅ Caches cleared
+2026-05-14 08:00:26 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 8 (2 scanner, 6 base)
+2026-05-14 08:08:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:08:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:09:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:09:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:09:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:09:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:12:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:12:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:12:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:13:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:14:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:43 [DEBUG] ✅ Caches cleared
+2026-05-14 08:15:43 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 8 (2 scanner, 6 base)
+2026-05-14 08:15:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:15:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:16:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:16:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:16:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:16:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:17:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:17:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:17:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:17:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:54 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:18:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:19:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:20:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:21:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:22:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:22:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:22:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:22:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:22:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:22:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:22:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:27:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:28:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:28:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:28:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:28:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:28:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:28:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:28:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:30:59 [DEBUG] ✅ Caches cleared
+2026-05-14 08:30:59 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 8 (2 scanner, 6 base)
+2026-05-14 08:32:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:32:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:32:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:32:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:32:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:32:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:33:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:54 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:34:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:35:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:36:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:37:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:38:57 [DEBUG] Scanner: Removed symbols: BASED/USDT
+2026-05-14 08:38:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:39:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:40:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:41:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:42:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:01 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:43:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:44:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:45:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:04 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:07 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:10 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:13 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:18 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:18 [DEBUG] ✅ Caches cleared
+2026-05-14 08:46:18 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 7 (1 scanner, 6 base)
+2026-05-14 08:46:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:46:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:47:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:48:58 [DEBUG] Scanner: New symbols: BASED/USDT
+2026-05-14 08:49:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:49:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:49:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:49:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:53:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:53:51 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:53:54 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:53:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:54:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:16 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:32 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:39 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:42 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:45 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:55:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:08 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:26 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:36 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:49 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:56:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:20 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:23 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:57:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:12 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:15 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:19 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:22 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:25 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:31 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:34 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:53 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:56 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:58:59 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:02 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:03 [DEBUG] Scanner: Removed symbols: PIEVERSE/USDT
+2026-05-14 08:59:05 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:28 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:30 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:37 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:40 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:43 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:46 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:48 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:54 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 08:59:57 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:00 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:03 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:06 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:09 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:11 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:14 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:17 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:21 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:24 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:27 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:29 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:33 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:35 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:38 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:41 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:44 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:47 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:50 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:52 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:55 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:00:58 [WARNING] ⚠️ Signal conflict detected: ['🔴 EMA downtrend', '🔴 MACD bearish']
+2026-05-14 09:01:40 [DEBUG] ✅ Caches cleared
+2026-05-14 09:01:40 [INFO]  Session stats - Trades: 0, Profit: $0.00 | Symbols: 7 (1 scanner, 6 base)
+2026-05-14 09:03:12 [INFO] 🟡 WEAK SIGNAL | Confidence: 59.1% (6.8/11.5)
+   ✅ 🟢 EMA strong uptrend
+   ✅ 🟢 MACD bullish
+   ✅ 🟢 Ichimoku cloud bullish (price above)
+   ✅ 🟢 Price at POC (high liquidity)
+   ✅ 🟢 POC trending bullish
+   → Weak signal - use with manual confirmation
+2026-05-14 09:03:13 [INFO] ✅ Buy order created: BASED/USDT 194.9 @ 0.09233
+2026-05-14 09:03:14 [ERROR] Error fetching order 2214614277845948672: bybit fetchOrder() can only access an order if it is in last 500 orders(of any status) for your account. Set params["acknowledged"] = True to hide self warning. Alternatively, we suggest to use fetchOpenOrder or fetchClosedOrder
+2026-05-14 09:03:14 [ERROR] Error entering trade: bybit fetchOrder() can only access an order if it is in last 500 orders(of any status) for your account. Set params["acknowledged"] = True to hide self warning. Alternatively, we suggest to use fetchOpenOrder or fetchClosedOrder
+2026-05-14 09:03:38 [CRITICAL]  STOP LOSS! Equity $6.18 below limit
+2026-05-14 09:03:43 [INFO] Bot shutting down...
+2026-05-14 09:03:43 [INFO]  Bot stopped. Session profit: $0.00
