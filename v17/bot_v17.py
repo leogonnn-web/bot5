@@ -2,6 +2,7 @@
 HYDRA Trading Bot v17.4 - LONG-TERM PRODUCTION CORE
 Engineered with State Machine, WebSocket Tick Stream, and Automated CSV Reporting
 EMOJI COMPLETELY REMOVED -> REPLACED WITH TEXT @STATUS@ FOR WINDOWS COMPATIBILITY
+FULLY EQUIPPED WITH SECURE DRY_RUN SIMULATION CONTOUR
 """
 import time
 import signal
@@ -157,50 +158,77 @@ class TradingBot:
             self.state = BotState.IDLE
 
     def _handle_in_position_state(self):
+        """Мониторинг сделки с поддержкой боевого режима и симуляции Dry Run"""
         try:
             symbol = self.state_data['symbol']
-            order_id = self.state_data['order_id']
+            is_dry_run = self.trading_config.get('dry_run', False)
             
-            try:
-                order = self.exchange.fetch_order(order_id, symbol)
-            except Exception as order_err:
-                if "last 500 orders" in str(order_err):
-                    time.sleep(1.5)
-                    balance = self.exchange.fetch_balance()
-                    coin_name = symbol.split('/')
-                    if safe_float(balance['free'].get(coin_name, 0)) <= 0:
-                        logger.info(f"@TAKE_PROFIT_CLOSED@ Тейк-Профит по {symbol} успешно исполнился на Bybit!")
-                        self.state_data = {}
-                        self.state = BotState.IDLE
-                    return
-                raise order_err
-
-            if order['status'] == 'closed':
-                close_price = safe_float(order.get('price') or order.get('average', self.state_data['buy_price']))
-                trade_profit = (close_price - self.state_data['buy_price']) * self.state_data['amount']
-                self.session_profit += trade_profit
-                self.trade_db.log_trade(symbol, "sell", self.state_data['amount'], close_price, confidence=0.0)
-                logger.info(f"@PROFIT_TAKEN@ PROFIT TAKEN! {symbol} +${trade_profit:.2f}")
-                self.state_data = {}
-                self.state = BotState.IDLE
-                return
- 
             ws_data = self.ws_tickers_cache.get(symbol, {})
             current_price = ws_data.get('last') or safe_float(self.exchange.fetch_ticker(symbol)['last'])
             
             change_percent = ((current_price - self.state_data['buy_price']) / self.state_data['buy_price']) * 100
             elapsed = time.time() - self.state_data['buy_time']
- 
+            
+            # Считаем целевую цену тейка для симуляции
+            take_profit_pct = self.trading_config.get('take_profit', 1.5)
+            
             print(f"Позиция {symbol}: {change_percent:.2f}% | Время: {int(elapsed)}с @MONITOR_WS@", end='\r')
- 
-            if change_percent <= -self.trading_config['panic_stop']:
-                logger.warning(f"@STOP_LOSS_HIT@ СРАБОТАЛ СТОП-ЛОСС для {symbol} ({change_percent:.2f}%)")
-                self.last_loss_time = time.time()
-                self._panic_sell()
-                return
-                
-            if elapsed > self.trading_config['timeout_breakeven'] and not self.state_data['is_breakeven']:
-                self._set_breakeven()
+
+            # --- ЛОГИКА ОПРЕДЕЛЕНИЯ ЗАКРЫТИЯ СДЕЛКИ ---
+            is_tp_hit = change_percent >= take_profit_pct
+            is_sl_hit = change_percent <= -self.trading_config['panic_stop']
+            
+            if is_dry_run:
+                if is_tp_hit:
+                    logger.info(f"@DRY_RUN_TP@ Виртуальный Тейк-Профит сработал для {symbol} (+{change_percent:.2f}%)")
+                    trade_profit = (self.state_data['target_sell_price'] - self.state_data['buy_price']) * self.state_data['amount']
+                    self.session_profit += trade_profit
+                    self.trade_db.log_trade(symbol, "sell", self.state_data['amount'], self.state_data['target_sell_price'], confidence=0.0)
+                    self.state_data = {}
+                    self.state = BotState.IDLE
+                    return
+                elif is_sl_hit:
+                    logger.warning(f"@DRY_RUN_SL@ Виртуальный Стоп-Лосс сработал для {symbol} ({change_percent:.2f}%)")
+                    self.last_loss_time = time.time()
+                    self.state_data = {}
+                    self.state = BotState.IDLE
+                    return
+            else:
+                # Боевой режим: опрашиваем реальный ордер на Bybit
+                order_id = self.state_data['order_id']
+                try:
+                    order = self.exchange.fetch_order(order_id, symbol)
+                except Exception as order_err:
+                    if "last 500 orders" in str(order_err):
+                        time.sleep(1.5)
+                        balance = self.exchange.fetch_balance()
+                        coin_name = symbol.split('/')[0]
+                        if safe_float(balance['free'].get(coin_name, 0)) <= 0:
+                            logger.info(f"@TAKE_PROFIT_CLOSED@ Тейк-Профит по {symbol} успешно исполнился на Bybit!")
+                            self.state_data = {}
+                            self.state = BotState.IDLE
+                        return
+                    raise order_err
+
+                if order['status'] == 'closed':
+                    close_price = safe_float(order.get('price') or order.get('average', self.state_data['buy_price']))
+                    trade_profit = (close_price - self.state_data['buy_price']) * self.state_data['amount']
+                    self.session_profit += trade_profit
+                    self.trade_db.log_trade(symbol, "sell", self.state_data['amount'], close_price, confidence=0.0)
+                    logger.info(f"@PROFIT_TAKEN@ PROFIT TAKEN! {symbol} +${trade_profit:.2f}")
+                    self.state_data = {}
+                    self.state = BotState.IDLE
+                    return
+     
+                if is_sl_hit:
+                    logger.warning(f"@STOP_LOSS_HIT@ СРАБОТАЛ РЕАЛЬНЫЙ СТОП-ЛОСС для {symbol} ({change_percent:.2f}%)")
+                    self.last_loss_time = time.time()
+                    self._panic_sell()
+                    return
+                    
+                if elapsed > self.trading_config['timeout_breakeven'] and not self.state_data['is_breakeven']:
+                    self._set_breakeven()
+                    
         except Exception as e:
             logger.error(f"Ошибка в состоянии IN_POSITION: {e}")
 
@@ -267,7 +295,7 @@ class TradingBot:
     def _calculate_real_rvol(self, ohlcv) -> float:
         try:
             if len(ohlcv) < 20: return 1.0
-            volumes = [safe_float(candle) for candle in ohlcv]
+            volumes = [safe_float(candle[5]) for candle in ohlcv]
             current_volume = volumes[-1]
             avg_volume = sum(volumes[-16:-1]) / 15
             if avg_volume <= 0: return 1.0
@@ -276,6 +304,9 @@ class TradingBot:
             return 1.0
  
     def _check_balance(self) -> bool:
+        # В режиме симуляции баланс всегда считается условно верным
+        if self.trading_config.get('dry_run', False):
+            return True
         try:
             balance = self.exchange.fetch_balance()
             usdt_free = safe_float(balance['free'].get('USDT', 0))
@@ -302,8 +333,8 @@ class TradingBot:
             try:
                 btc_ohlcv_1h = self.exchange.fetch_ohlcv('BTC/USDT', timeframe='1h', limit=2)
                 if len(btc_ohlcv_1h) >= 2:
-                    btc_open = safe_float(btc_ohlcv_1h[-2])
-                    btc_close = safe_float(btc_ohlcv_1h[-1])
+                    btc_open = safe_float(btc_ohlcv_1h[-2][1])
+                    btc_close = safe_float(btc_ohlcv_1h[-1][4])
                     btc_change_1h = ((btc_close - btc_open) / btc_open) * 100
                     if btc_change_1h < -0.8: btc_trend = "bearish"
                     elif btc_change_1h > 0.8: btc_trend = "bullish"
@@ -312,8 +343,8 @@ class TradingBot:
             try:
                 btc_ohlcv_15m = self.exchange.fetch_ohlcv('BTC/USDT', timeframe='5m', limit=4)
                 if len(btc_ohlcv_15m) >= 3:
-                    btc_high_15m = max([safe_float(c) for c in btc_ohlcv_15m])
-                    btc_current = safe_float(tickers.get('BTC/USDT', {}).get('ask') or btc_ohlcv_15m[-1])
+                    btc_high_15m = max([safe_float(c[2]) for c in btc_ohlcv_15m])
+                    btc_current = safe_float(tickers.get('BTC/USDT', {}).get('ask') or btc_ohlcv_15m[-1][4])
                     btc_drop_15m = ((btc_current - btc_high_15m) / btc_high_15m) * 100
                     
                     crash_limit = self.trading_config.get('btc_crash_15m_limit', -2.0)
@@ -329,17 +360,17 @@ class TradingBot:
                     continue
                 try:
                     price_now = safe_float(tickers[symbol]['ask'])
-                    if symbol not in self.price_history or self.price_history[symbol] == 0.0:
+                    if symbol not in self.price_history or self.price_history[symbol][0] == 0.0:
                         self.price_history[symbol] = [price_now, time.time()]
                         continue
-                    if price_now > self.price_history[symbol]:
+                    if price_now > self.price_history[symbol][0]:
                         self.price_history[symbol] = [price_now, time.time()]
                         continue
-                    if time.time() - self.price_history[symbol] > 900:
+                    if time.time() - self.price_history[symbol][1] > 900:
                         self.price_history[symbol] = [price_now, time.time()]
                         continue
  
-                    drop = ((self.price_history[symbol] - price_now) / self.price_history[symbol]) * 100
+                    drop = ((self.price_history[symbol][0] - price_now) / self.price_history[symbol][0]) * 100
  
                     if drop >= self.trading_config['drop_threshold']:
                         try: ohlcv = self.exchange.fetch_ohlcv(symbol, '1m', limit=60)
@@ -381,7 +412,6 @@ class TradingBot:
             slot_size = self.trading_config['slot_size']
             amount_target = float(self.exchange.exchange.amount_to_precision(symbol, slot_size / buy_price))
             
-            # [Инженерия]: Проверяем параметр dry_run из конфига (по умолчанию false)
             is_dry_run = self.trading_config.get('dry_run', False)
             
             if is_dry_run:
@@ -393,7 +423,6 @@ class TradingBot:
                 order = self.exchange.create_limit_buy_order(symbol, amount_target, buy_price)
                 order_id = order['id']
                 
-                # Ожидание исполнения ордера на реальной бирже
                 filled = 0
                 for _ in range(7):
                     time.sleep(1)
@@ -417,7 +446,7 @@ class TradingBot:
                     sell_order_id = "virtual_sell_67890"
                     safe_amount = filled
                 else:
-                    time.sleep(2.5) # UTA-пауза
+                    time.sleep(2.5)
                     balance = self.exchange.fetch_balance()
                     actual_qty = safe_float(balance['free'].get(symbol.split('/')[0], 0))
                     safe_amount = float(self.exchange.exchange.amount_to_precision(symbol, actual_qty if actual_qty > 0 else filled))
@@ -426,20 +455,20 @@ class TradingBot:
                     sell_order = self.exchange.create_limit_sell_order(symbol, safe_amount, sell_price)
                     sell_order_id = sell_order['id']
                 
-                # Записываем данные сделки в стейт-машину (в режиме Dry Run они крутятся виртуально)
                 self.state_data = {
                     'symbol': symbol,
                     'buy_price': buy_price,
                     'buy_time': time.time(),
                     'order_id': sell_order_id,
                     'amount': safe_amount,
+                    'target_sell_price': sell_price,
                     'is_breakeven': False
                 }
                 self.trade_db.log_trade(symbol, "buy", safe_amount, buy_price, confidence=100.0)
                 logger.info(f"@STATE_CHANGED@ Переключение автомата -> IN_POSITION для {symbol}")
                 self.state = BotState.IN_POSITION
             else:
-                logger.warning(f"@BUY_TIMEOUT@ Реальный ордер не исполнился вовремя. Отмена.")
+                logger.warning(f"@BUY_TIMEOUT@ Ордер не исполнился вовремя. Отмена.")
                 try: self.exchange.cancel_order(order_id, symbol)
                 except: pass
                 self.state = BotState.IDLE
@@ -447,10 +476,12 @@ class TradingBot:
             logger.error(f"❌ Ошибка входа: {e}")
             self.state = BotState.IDLE
 
-
 def main():
     bot = TradingBot()
     bot.run()
+
+if __name__ == "__main__":
+    main()
 
  if __name__ == "__main__":
     main()
