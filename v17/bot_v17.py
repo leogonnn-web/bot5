@@ -111,6 +111,22 @@ class TradingBot:
     def _update_websocket_stream(self):
         try:
             symbols = self.symbol_manager.get_symbols(refresh_scanner=False)
+            is_dry_run = self.trading_config.get('dry_run', False)
+            
+            # [СИМУЛЯЦИЯ ФИКС]: Если включен dry_run, генерируем виртуальный стакан в памяти
+            if is_dry_run:
+                for sym in symbols:
+                    # Базовая заглушка цен для тестов: NOT=0.015, TON=7.0, BNB=600.0, BASED=0.077
+                    mock_price = 0.015 if "NOT" in sym else (7.0 if "TON" in sym else (600.0 if "BNB" in sym else 0.077))
+                    self.ws_tickers_cache[sym] = {
+                        'ask': mock_price,
+                        'bid': mock_price * 0.999,
+                        'last': mock_price,
+                        'timestamp': time.time()
+                    }
+                return
+
+            # Боевой режим: реальный запрос к Bybit V5
             raw_tickers = self.exchange.fetch_tickers(symbols)
             for sym in symbols:
                 if sym in raw_tickers:
