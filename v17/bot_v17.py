@@ -303,26 +303,26 @@ class TradingBot:
         except:
             return 1.0
  
- def _check_balance(self) -> bool:
-     """Проверка баланса аккаунта с авто-пропуском для симуляции"""
-     # Если включен dry_run — сразу возвращаем True и не лезем на биржу Bybit
-     if self.trading_config.get('dry_run', False):
-         return True
-     try:
-         balance = self.exchange.fetch_balance()
-         usdt_free = safe_float(balance['free'].get('USDT', 0))
-         total_equity = safe_float(balance['total'].get('USDT', usdt_free))
-         if total_equity > 0 and total_equity < self.trading_config['stop_loss_total']:
-             logger.critical("@CRITICAL_BALANCE_STOP@ Общий баланс аккаунта ниже лимита защиты!")
-             self.should_stop = True
-             return False
-         if usdt_free < self.trading_config['min_exchange_limit']:
-             print(f"Свободный остаток: {usdt_free:.2f}$ | Ожидание лимита @WAIT_USDT@ ", end='\r')
-             return False
-         return True
-     except Exception as e:
-         logger.error(f"Ошибка проверки баланса: {e}")
-         return False
+    def _check_balance(self) -> bool:
+        """Проверка баланса аккаунта с авто-пропуском для симуляции"""
+        # Если включен dry_run — сразу возвращаем True и не лезем на биржу Bybit
+        if self.trading_config.get('dry_run', False):
+            return True
+        try:
+            balance = self.exchange.fetch_balance()
+            usdt_free = safe_float(balance['free'].get('USDT', 0))
+            total_equity = safe_float(balance['total'].get('USDT', usdt_free))
+            if total_equity > 0 and total_equity < self.trading_config['stop_loss_total']:
+                logger.critical("@CRITICAL_BALANCE_STOP@ Общий баланс аккаунта ниже лимита защиты!")
+                self.should_stop = True
+                return False
+            if usdt_free < self.trading_config['min_exchange_limit']:
+                print(f"Свободный остаток: {usdt_free:.2f}$ | Ожидание лимита @WAIT_USDT@ ", end='\r')
+                return False
+            return True
+        except Exception as e:
+            logger.error(f"Ошибка проверки баланса: {e}")
+            return False
  
     def _scan_for_entries(self) -> None:
         try:
