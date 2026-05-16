@@ -381,27 +381,30 @@ class TradingBot:
             slot_size = self.trading_config['slot_size']
             amount_target = float(self.exchange.exchange.amount_to_precision(symbol, slot_size / buy_price))
             
-            logger.info(f"@BUY_ORDER_SEND@ Отправка лимитного ордера: {symbol} на {slot_size}$ по цене {buy_price}")
-            order = self.exchange.create_limit_buy_order(symbol, amount_target, buy_price)
+            # [Инженерия]: Проверяем параметр dry_run из конфига (по умолчанию false)
+            is_dry_run = self.trading_config.get('dry_run', False)
             
-            filled = 0
-            for _ in range(7):
-                time.sleep(1)
-                try:
-                    check = self.exchange.fetch_order(order['id'], symbol)
-                    filled = safe_float(check.get('filled', 0))
-                    if check['status'] in ['closed', 'canceled']: break
-                except: pass
+            if is_dry_run:
+                logger.info(f"@DRY_RUN_BUY@ Имитация покупки: {symbol} на {slot_size}$ по цене {buy_price}")
+                filled = amount_target
+                order_id = "virtual_buy_12345"
+            else:
+                logger.info(f"@BUY_ORDER_SEND@ Отправка лимитного ордера: {symbol} на {slot_size}$ по цене {buy_price}")
+                order = self.exchange.create_limit_buy_order(symbol, amount_target, buy_price)
+                order_id = order['id']
+                
+                # Ожидание исполнения ордера на реальной бирже
+                filled = 0
+                for _ in range(7):
+                    time.sleep(1)
+                    try:
+                        check = self.exchange.fetch_order(order_id, symbol)
+                        filled = safe_float(check.get('filled', 0))
+                        if check['status'] in ['closed', 'canceled']: break
+                    except: pass
             
             filled_usd = filled * buy_price
-            if filled_usd >= 5.0:
-                if filled < (amount_target * 0.95):
-                    logger.warning(f"@PARTIAL_FILL@ Предупреждение о частичном заполнении по {symbol}: {filled}/{amount_target} монет")
-                
-                time.sleep(2.5)
-                balance = self.exchange.fetch_balance()
-                actual_qty = safe_float(balance['free'].get(symbol.split('/'), 0))
-                safe_amount = float(self.exchange.exchange.amount_to_precision(symbol, actual_qty if actual_qty > 0 else filled))
+            if filled_usd >= 5.0 or is_dry_run:
                 
                 take_profit_pct = self.trading_config.get('take_profit', 1.5)
                 sell_price = float(self.exchange.exchange.price_to_precision(symbol, buy_price * (1 + (take_profit_pct / 100))))
@@ -409,14 +412,26 @@ class TradingBot:
                 if sell_price <= buy_price: 
                     sell_price += self.exchange.exchange.markets[symbol]['precision']['price']
 
-                logger.info(f"@TAKE_PROFIT_SEND@ Выставление лимитного ордера продажи: {safe_amount} {symbol} по цене {sell_price}")
-                sell_order = self.exchange.create_limit_sell_order(symbol, safe_amount, sell_price)
+                if is_dry_run:
+                    logger.info(f"@DRY_RUN_SELL@ Имитация тейк-профита: Продажа {filled} {symbol} по цене {sell_price}")
+                    sell_order_id = "virtual_sell_67890"
+                    safe_amount = filled
+                else:
+                    time.sleep(2.5) # UTA-пауза
+                    balance = self.exchange.fetch_balance()
+                    actual_qty = safe_float(balance['free'].get(symbol.split('/')[0], 0))
+                    safe_amount = float(self.exchange.exchange.amount_to_precision(symbol, actual_qty if actual_qty > 0 else filled))
+                    
+                    logger.info(f"@TAKE_PROFIT_SEND@ Выставление лимитного ордера продажи: {safe_amount} {symbol} по цене {sell_price}")
+                    sell_order = self.exchange.create_limit_sell_order(symbol, safe_amount, sell_price)
+                    sell_order_id = sell_order['id']
                 
+                # Записываем данные сделки в стейт-машину (в режиме Dry Run они крутятся виртуально)
                 self.state_data = {
                     'symbol': symbol,
                     'buy_price': buy_price,
                     'buy_time': time.time(),
-                    'order_id': sell_order['id'],
+                    'order_id': sell_order_id,
                     'amount': safe_amount,
                     'is_breakeven': False
                 }
@@ -424,13 +439,14 @@ class TradingBot:
                 logger.info(f"@STATE_CHANGED@ Переключение автомата -> IN_POSITION для {symbol}")
                 self.state = BotState.IN_POSITION
             else:
-                logger.warning(f"@BUY_TIMEOUT@ Ордер не исполнился вовремя. Отмена и возврат в IDLE.")
-                try: self.exchange.cancel_order(order['id'], symbol)
+                logger.warning(f"@BUY_TIMEOUT@ Реальный ордер не исполнился вовремя. Отмена.")
+                try: self.exchange.cancel_order(order_id, symbol)
                 except: pass
                 self.state = BotState.IDLE
         except Exception as e:
             logger.error(f"❌ Ошибка входа: {e}")
             self.state = BotState.IDLE
+
 
 def main():
     bot = TradingBot()
