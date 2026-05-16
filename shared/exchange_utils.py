@@ -1,7 +1,7 @@
 """
 HYDRA-NET - EXCHANGE UTILITIES PRO v17.4
 High-speed communication interface for Bybit V5 API & WebSocket Streams
-FULL VERSION - ALL MATHEMATICAL AND PRECISION METHODS RESTORED
+FULL COMPACT VERSION - DUPLICATES COMPLETELY REMOVED
 """
 import os
 import time
@@ -23,7 +23,6 @@ class ExchangeManager:
         self.api_key = os.getenv('BYBIT_API_KEY', '')
         self.secret = os.getenv('BYBIT_API_SECRET', '')
         
-        # Базовое подключение Bybit V5 REST API
         self.exchange = ccxt.bybit({
             'apiKey': self.api_key,
             'secret': self.secret,
@@ -35,7 +34,6 @@ class ExchangeManager:
             }
         })
         
-        # Инициализация WebSocket-клиента через асинхронный движок
         self.ws_exchange = None
         self.ws_active = self._init_websocket_stream()
 
@@ -62,7 +60,6 @@ class ExchangeManager:
         """Загрузка спецификаций торговых пар с биржи"""
         try:
             logger.info("@MARKETS_LOAD@ Загрузка спецификаций рынка...")
-            # Если ключей нет в системе, имитируем успешную загрузку для dry_run
             if not self.api_key or not self.secret:
                 logger.warning("@EXCHANGE_WARN@ API ключи не найдены. Активирован виртуальный контур.")
                 return {}
@@ -97,25 +94,25 @@ class ExchangeManager:
             return str(price)
 
     def fetch_balance(self) -> dict:
-        """Безопасный запрос баланса аккаунта"""
-        try:
-            return self.exchange.fetch_balance()
-        except Exception as e:
-            logger.error(f"@EXCHANGE_ERROR@ Ошибка fetch_balance: {e}")
-            return {'free': {}, 'total': {}}
-
-    def fetch_balance(self) -> dict:
-        """Безопасный запрос баланса аккаунта"""
+        """Безопасный запрос баланса аккаунта с авто-подстраховкой для симуляции"""
         try:
             if not self.api_key or not self.secret:
-                return {'free': {'USDT': 1000.0}, 'total': {'USDT': 1000.0}} # Виртуальная тысяча долларов для симуляции
+                return {'free': {'USDT': 1000.0}, 'total': {'USDT': 1000.0}}
             return self.exchange.fetch_balance()
         except Exception as e:
             logger.error(f"@EXCHANGE_ERROR@ Ошибка fetch_balance: {e}")
             return {'free': {'USDT': 1000.0}, 'total': {'USDT': 1000.0}}
 
+    def fetch_tickers(self, symbols: List[str]) -> dict:
+        """Запрос текущих цен по списку монет"""
+        try:
+            return self.exchange.fetch_tickers(symbols)
+        except Exception as e:
+            logger.error(f"@EXCHANGE_ERROR@ Ошибка fetch_tickers: {e}")
+            return {}
+
     def fetch_ticker(self, symbol: str) -> dict:
-        """Запрос цену по одной конкретной монете"""
+        """Запрос цены по одной конкретной монете"""
         try:
             return self.exchange.fetch_ticker(symbol)
         except Exception as e:
@@ -175,34 +172,18 @@ class ExchangeManager:
             raise e
 
     def amend_order(self, order_id: str, symbol: str, amount: float, price: float) -> Optional[dict]:
-        """
-        Высокочастотный метод Bybit V5: изменяет цену и объем ордера на лету
-        без его полной отмены, экономя время и лимиты API.
-        """
+        """Высокочастотный метод Bybit V5: изменение ордера на лету"""
         try:
             amt_str = self.exchange.amount_to_precision(symbol, amount)
             price_str = self.exchange.price_to_precision(symbol, price)
-            
             logger.debug(f"@AMEND_ORDER@ Синхронизация ордера {order_id} -> {symbol} | Цена: {price_str}")
-            
-            modified_order = self.exchange.amend_order(
-                id=order_id,
-                symbol=symbol,
-                type='limit',
-                side='buy',
-                amount=float(amt_str),
-                price=float(price_str)
-            )
-            return modified_order
+            return self.exchange.amend_order(id=order_id, symbol=symbol, type='limit', side='buy', amount=float(amt_str), price=float(price_str))
         except Exception as e:
             logger.error(f"@ORDER_ERROR@ Ошибка синхронизации ордера через amend_order: {e}")
             return None
 
     def fetch_order(self, order_id: str, symbol: str) -> dict:
-        """
-        [P0 ФИКС И ОРДЕР-ДОЖИМ]: Безопасный запрос статуса ордера с автоподстраховкой.
-        Скрывает предупреждения ccxt и ищет быстрые ордера в закрытых, если Bybit UTA не успел обновить базу.
-        """
+        """Безопасный запрос статуса ордера с автоподстраховкой"""
         for attempt in range(3):
             try:
                 return self.exchange.fetch_order(order_id, symbol, params={"acknowledged": True})
@@ -212,11 +193,9 @@ class ExchangeManager:
                         time.sleep(0.5)
                         closed_orders = self.fetch_closed_orders(symbol, limit=5)
                         for order in closed_orders:
-                            if order['id'] == order_id:
-                                return order
-                    except:
-                        pass
+                            if order['id'] == order_id: return order
+                    except: pass
                 time.sleep(0.5)
-        
         logger.warning(f"@ORDER_FALLBACK@ Статус ордера {order_id} не получен, применен безопасный статус 'closed'")
         return {'id': order_id, 'status': 'closed', 'price': None, 'filled': 0.0}
+
